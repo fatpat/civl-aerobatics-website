@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Sporting Code S7 B - Aerobatics</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Sporting Code S7 B - Aerobatics</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#introduction-and-flight-definitions"><span class="toc-section-number">1</span> INTRODUCTION AND FLIGHT DEFINITIONS</a>
+<ul>
+<li><a href="#flight-definitions"><span class="toc-section-number">1.1</span> Flight Definitions</a>
+<ul>
+<li><a href="#flight-box"><span class="toc-section-number">1.1.1</span> Flight Box</a></li>
+<li><a href="#no-fly-zone"><span class="toc-section-number">1.1.2</span> No-fly Zone</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#entry-and-registration"><span class="toc-section-number">2</span> ENTRY AND REGISTRATION</a>
+<ul>
+<li><a href="#entry"><span class="toc-section-number">2.1</span> Entry</a></li>
+<li><a href="#eligibility-to-compete"><span class="toc-section-number">2.2</span> Eligibility to Compete</a>
+<ul>
+<li><a href="#exemption-to-eligibility-to-compete"><span class="toc-section-number">2.2.1</span> Exemption to Eligibility to Compete</a></li>
+<li><a href="#qualification-dates"><span class="toc-section-number">2.2.2</span> Qualification Dates</a></li>
+<li><a href="#procedure-for-checking-qualification"><span class="toc-section-number">2.2.3</span> Procedure for Checking Qualification</a></li>
+<li><a href="#civl-screening-committee"><span class="toc-section-number">2.2.4</span> CIVL Screening Committee</a></li>
+<li><a href="#organisers-responsibility"><span class="toc-section-number">2.2.5</span> Organiser’s Responsibility</a></li>
+</ul></li>
+<li><a href="#allocation"><span class="toc-section-number">2.3</span> Allocation</a>
+<ul>
+<li><a href="#mixed-championships"><span class="toc-section-number">2.3.1</span> Mixed Championships</a></li>
+<li><a href="#host-nation"><span class="toc-section-number">2.3.2</span> Host nation</a></li>
+</ul></li>
+<li><a href="#registration"><span class="toc-section-number">2.4</span> Registration</a></li>
+</ul></li>
+<li><a href="#runs"><span class="toc-section-number">3</span> RUNS</a>
+<ul>
+<li><a href="#official-practice-period"><span class="toc-section-number">3.1</span> Official Practice Period</a></li>
+<li><a href="#cuts"><span class="toc-section-number">3.2</span> Cuts</a></li>
+<li><a href="#programs"><span class="toc-section-number">3.3</span> Programs</a></li>
+<li><a href="#pre-flyers"><span class="toc-section-number">3.4</span> Pre-Flyers</a></li>
+<li><a href="#start-order"><span class="toc-section-number">3.5</span> Start Order</a></li>
+<li><a href="#announcement-of-program-start"><span class="toc-section-number">3.6</span> Announcement of Program Start</a></li>
+<li><a href="#flight-box-1"><span class="toc-section-number">3.7</span> Flight Box</a></li>
+<li><a href="#emergency-stop-signal"><span class="toc-section-number">3.8</span> Emergency Stop Signal</a></li>
+<li><a href="#re-flight"><span class="toc-section-number">3.9</span> Re-flight</a></li>
+<li><a href="#validation-of-run"><span class="toc-section-number">3.10</span> Validation of Run</a></li>
+<li><a href="#communication"><span class="toc-section-number">3.11</span> Communication</a></li>
+</ul></li>
+<li><a href="#maneuver-definitions-and-evaluation-criteria"><span class="toc-section-number">4</span> MANEUVER DEFINITIONS AND EVALUATION CRITERIA</a>
+<ul>
+<li><a href="#solo-and-synchro"><span class="toc-section-number">4.1</span> Solo and Synchro</a></li>
+<li><a href="#synchro-only"><span class="toc-section-number">4.2</span> Synchro only</a></li>
+<li><a href="#landing-solo-and-synchro"><span class="toc-section-number">4.3</span> Landing (Solo and Synchro)</a></li>
+<li><a href="#synchro-only-1"><span class="toc-section-number">4.4</span> Synchro only</a></li>
+<li><a href="#choreography"><span class="toc-section-number">4.5</span> Choreography</a></li>
+</ul></li>
+<li><a href="#scoring"><span class="toc-section-number">5</span> SCORING</a>
+<ul>
+<li><a href="#competition-validity"><span class="toc-section-number">5.1</span> Competition Validity</a></li>
+<li><a href="#champions"><span class="toc-section-number">5.2</span> Champions</a>
+<ul>
+<li><a href="#solo"><span class="toc-section-number">5.2.1</span> Solo</a></li>
+<li><a href="#synchro"><span class="toc-section-number">5.2.2</span> Synchro</a></li>
+<li><a href="#team"><span class="toc-section-number">5.2.3</span> Team</a></li>
+<li><a href="#tied-scores"><span class="toc-section-number">5.2.4</span> Tied Scores</a></li>
+</ul></li>
+<li><a href="#scoring-1"><span class="toc-section-number">5.3</span> Scoring</a>
+<ul>
+<li><a href="#solo-1"><span class="toc-section-number">5.3.1</span> Solo</a></li>
+<li><a href="#synchro-1"><span class="toc-section-number">5.3.2</span> Synchro</a></li>
+</ul></li>
+<li><a href="#technical-2"><span class="toc-section-number">5.4</span> Technical</a>
+<ul>
+<li><a href="#high-coefficient-manoeuvres"><span class="toc-section-number">5.4.1</span> High coefficient manoeuvres</a></li>
+<li><a href="#points-deductions"><span class="toc-section-number">5.4.2</span> Points Deductions</a></li>
+<li><a href="#synchro-2"><span class="toc-section-number">5.4.3</span> Synchro</a></li>
+</ul></li>
+<li><a href="#choreography-3"><span class="toc-section-number">5.5</span> Choreography</a>
+<ul>
+<li><a href="#repetition"><span class="toc-section-number">5.5.1</span> Repetition</a></li>
+<li><a href="#twisted-manoeuvres-bonus"><span class="toc-section-number">5.5.2</span> Twisted manoeuvres bonus</a></li>
+<li><a href="#reversed-manoeuvres-bonus"><span class="toc-section-number">5.5.3</span> Reversed Manoeuvres bonus</a></li>
+<li><a href="#flipped-manoeuvres-bonus"><span class="toc-section-number">5.5.4</span> Flipped Manoeuvres bonus</a></li>
+<li><a href="#twisted-exit-bonus"><span class="toc-section-number">5.5.5</span> Twisted exit bonus</a></li>
+<li><a href="#wing-touch-bonus"><span class="toc-section-number">5.5.6</span> Wing touch bonus</a></li>
+</ul></li>
+<li><a href="#landing-2"><span class="toc-section-number">5.6</span> Landing</a>
+<ul>
+<li><a href="#landing-on-ground"><span class="toc-section-number">5.6.1</span> Landing On Ground</a></li>
+<li><a href="#no-landing-scoring"><span class="toc-section-number">5.6.2</span> No Landing Scoring</a></li>
+</ul></li>
+<li><a href="#synchronisation-1"><span class="toc-section-number">5.7</span> Synchronisation</a></li>
+<li><a href="#manoeuvre-and-score-validation"><span class="toc-section-number">5.8</span> Manoeuvre and Score Validation</a></li>
+<li><a href="#obvious-error"><span class="toc-section-number">5.9</span> Obvious Error</a></li>
+</ul></li>
+<li><a href="#penalties-and-warnings"><span class="toc-section-number">6</span> PENALTIES AND WARNINGS</a>
+<ul>
+<li><a href="#penalties"><span class="toc-section-number">6.1</span> Penalties</a>
+<ul>
+<li><a href="#dangerous-flying"><span class="toc-section-number">6.1.1</span> Dangerous Flying</a></li>
+<li><a href="#opening-of-reserve"><span class="toc-section-number">6.1.2</span> Opening of Reserve</a></li>
+<li><a href="#not-opening-of-reserve"><span class="toc-section-number">6.1.3</span> Not Opening of Reserve</a></li>
+</ul></li>
+<li><a href="#warnings"><span class="toc-section-number">6.2</span> Warnings</a>
+<ul>
+<li><a href="#offences-liable-to-result-in-a-warning"><span class="toc-section-number">6.2.1</span> Offences liable to result in a warning</a></li>
+<li><a href="#warning-penalties"><span class="toc-section-number">6.2.2</span> Warning Penalties</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#penalties-and-warnings-1"><span class="toc-section-number">7</span> PENALTIES AND WARNINGS</a>
+<ul>
+<li><a href="#penalties-1"><span class="toc-section-number">7.1</span> Penalties</a>
+<ul>
+<li><a href="#dangerous-flying-1"><span class="toc-section-number">7.1.1</span> Dangerous Flying</a></li>
+<li><a href="#opening-of-reserve-1"><span class="toc-section-number">7.1.2</span> Opening of Reserve</a></li>
+<li><a href="#not-opening-of-reserve-1"><span class="toc-section-number">7.1.3</span> Not Opening of Reserve</a></li>
+</ul></li>
+<li><a href="#warnings-1"><span class="toc-section-number">7.2</span> Warnings</a>
+<ul>
+<li><a href="#offences-liable-to-result-in-a-warning-1"><span class="toc-section-number">7.2.1</span> Offences liable to result in a warning</a></li>
+<li><a href="#warning-penalties-1"><span class="toc-section-number">7.2.2</span> Warning Penalties</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#safety-equipment"><span class="toc-section-number">8</span> SAFETY &amp; EQUIPMENT</a>
+<ul>
+<li><a href="#personal-responsibility"><span class="toc-section-number">8.1</span> Personal Responsibility</a></li>
+<li><a href="#equipment"><span class="toc-section-number">8.2</span> Equipment</a>
+<ul>
+<li><a href="#glider"><span class="toc-section-number">8.2.1</span> Glider</a></li>
+<li><a href="#harness"><span class="toc-section-number">8.2.2</span> Harness</a></li>
+<li><a href="#reserve-parachutes"><span class="toc-section-number">8.2.3</span> Reserve Parachutes</a></li>
+<li><a href="#helmets"><span class="toc-section-number">8.2.4</span> Helmets</a></li>
+<li><a href="#ballast"><span class="toc-section-number">8.2.5</span> Ballast</a></li>
+<li><a href="#emergency-lines-cut-away"><span class="toc-section-number">8.2.6</span> Emergency lines cut away</a></li>
+</ul></li>
+<li><a href="#equipment-checks"><span class="toc-section-number">8.3</span> Equipment Checks</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 data-number="1" id="introduction-and-flight-definitions"><span class="header-section-number">1</span> INTRODUCTION AND FLIGHT DEFINITIONS</h1>
+<p>Section 7B of the FAI Sporting Code is the subset of Section 7 (or “Section 7 Common”) dedicated to Paragliding Aerobatics Championships. This document must be read in conjunction with the Section 7 Common, Section 7I Guidelines and Templates, Section 7E WPRS (CIVL Ranking) and the General Section.</p>
+<p>This document defines rules for 1st Category Events. For 2nd Category Events, see Section 7 Common Chapter 12.</p>
+<h2 data-number="1.1" id="flight-definitions"><span class="header-section-number">1.1</span> Flight Definitions</h2>
+<p>Additional definitions relevant to paragliding can be found in the Section 7A Cross Country.</p>
+<h3 data-number="1.1.1" id="flight-box"><span class="header-section-number">1.1.1</span> Flight Box</h3>
+<p>A three dimensional virtual and variable space, within which all maneuvers must take place. The flight box includes an area over the water where a pilot must land in case he loses control of his glider or throws his reserve parachute. The size and shape of the flight box is highly dependent on weather conditions, especially wind drift. It is the pilot’s responsibility to monitor conditions closely during his flight in order to ensure he is in, and stays in, the flight box during all maneuvers.</p>
+<p>The overall flight box area is defined and described during the General Briefing. It may be adjusted later during the event.</p>
+<h3 data-number="1.1.2" id="no-fly-zone"><span class="header-section-number">1.1.2</span> No-fly Zone</h3>
+<p>The area over which flying is strictly forbidden at all times, irrespective of wind conditions. The no-fly zone is defined during the General Briefing and may be adjusted later during the event.</p>
+<p>In the case where the Flight Box includes part of a No-Fly Zone, the rules of the No-Fly Zone prevail.</p>
+<h1 data-number="2" id="entry-and-registration"><span class="header-section-number">2</span> ENTRY AND REGISTRATION</h1>
+<h2 data-number="2.1" id="entry"><span class="header-section-number">2.1</span> Entry</h2>
+<p>The Local Regulations shall state:</p>
+<p>The maximum number of pilots that may be accepted in the Solo Championship.</p>
+<p>The maximum number of pairs of pilots that may be accepted in the Synchro Championship.</p>
+<p>The maximum number of pilots that may be entered by a NAC.</p>
+<h2 data-number="2.2" id="eligibility-to-compete"><span class="header-section-number">2.2</span> Eligibility to Compete</h2>
+<p>In the 5 years preceding the start of the Championships:</p>
+<p>Men shall have scored a minimum of 25 WPRS points</p>
+<p>Women shall have scored a minimum of 20 WPRS points</p>
+<p>Synchro pairs must demonstrate their skill either in a previous event or just prior to the championship.</p>
+<h3 data-number="2.2.1" id="exemption-to-eligibility-to-compete"><span class="header-section-number">2.2.1</span> Exemption to Eligibility to Compete</h3>
+<p>For any exemptions to pilot qualification requirements, applications must be made by the pilot’s NAC, with supporting evidence of the pilot’s skill and competition history. It is the responsibility of the NAC to ensure this is received by the CIVL President at least 30 days before the start of the competition.</p>
+<p>The list of exempted pilots is published on the organizer’s website.</p>
+<p>The Meet Director, before the start of the competition, may request an exempted pilot or a Synchro pair, to participate in a safety selection to demonstrate the skills defined in 2.2.1.1. In agreement with the Safety Director and Chief Judge, he may refuse entry to the competition if the pilot or the pair is unable to demonstrate these skills.</p>
+<h4 data-number="2.2.1.1" id="safety-selection"><span class="header-section-number">2.2.1.1</span> Safety Selection</h4>
+<p>All pilots entering the competition shall be able to safely perform the following maneuvers:</p>
+<ul>
+<li><p>Full stall + exit</p></li>
+<li><p>Tail slide + exit</p></li>
+<li><p>Wingover</p></li>
+<li><p>SAT</p></li>
+<li><p>Helicopter</p></li>
+</ul>
+<p>All pilots entering the competition shall be able to demonstrate the following points of choreography:</p>
+<ul>
+<li><p>Placement and drift</p></li>
+<li><p>Management of altitude</p></li>
+<li><p>Flow, rhythm, connection</p></li>
+<li><p>Synchro co-ordination (only for synchro flights)</p></li>
+</ul>
+<h3 data-number="2.2.2" id="qualification-dates"><span class="header-section-number">2.2.2</span> Qualification Dates</h3>
+<p>Pilot qualifications must be finalized 30 days before the start of the championship.</p>
+<h3 data-number="2.2.3" id="procedure-for-checking-qualification"><span class="header-section-number">2.2.3</span> Procedure for Checking Qualification</h3>
+<p>Qualification is to be checked by four parties to avoid unnecessary travel, expenses and disappointment in the event that a pilot’s entry is rejected due to not meeting the qualification criteria:</p>
+<ul>
+<li><p>The NAC or National Association/Federation before selecting their pilots.</p></li>
+<li><p>The competition organiser.</p></li>
+<li><p>The pilot.</p></li>
+<li><p>The CIVL Screening Committee.</p></li>
+</ul>
+<h3 data-number="2.2.4" id="civl-screening-committee"><span class="header-section-number">2.2.4</span> CIVL Screening Committee</h3>
+<p>A Screening Committee is appointed by CIVL Bureau for each championship. It consists of three people: one representing the Bureau, one representing the Aerobatics Committee, and a Senior Judge.</p>
+<p>The screening committee shall:</p>
+<p>Check that entries accepted by the organizer meet eligibility to compete criteria. Notify the organizer promptly of any that do not, so that the pilot can apply for an exemption under 2.2.1.</p>
+<p>Accept and check applications for exemptions. Request additional information if needed, make decisions with safety in mind and inform NAC and organizers.</p>
+<p>Check that the allocation process is effected according to the rules.</p>
+<p>It is each pilot's responsibility to make sure he is qualified.</p>
+<h3 data-number="2.2.5" id="organisers-responsibility"><span class="header-section-number">2.2.5</span> Organiser’s Responsibility</h3>
+<p>It is the organizer’s responsibility to notify NACs of any pilots who do not appear to meet the qualification criteria.</p>
+<h2 data-number="2.3" id="allocation"><span class="header-section-number">2.3</span> Allocation</h2>
+<p>The nation ranking for this purpose shall be the WPRS Nation Ranking three calendar months before the championship starts.</p>
+<p>Places are allocated to nations, one by one, in order from the top nation in the WPRS nation ranking down to the last ranked nation; if any places are still available, the process starts at the top again.</p>
+<p>This process will continue until the maximum number of pilots is reached or until 60 days before the start of the championship or otherwise stated in the local regulations.</p>
+<h3 data-number="2.3.1" id="mixed-championships"><span class="header-section-number">2.3.1</span> Mixed Championships</h3>
+<p>The base for all nations is one male pilot plus one female pilot (1+1).</p>
+<p>The allocation is done according to 2.3, but in this process the place allocated to the one female pilot in the base team size cannot be filled by a male pilot in any round of allocation.</p>
+<h3 data-number="2.3.2" id="host-nation"><span class="header-section-number">2.3.2</span> Host nation</h3>
+<p>The host nation shall have the opportunity of entering the same number of pilots as the top nation, except that in mixed championships they may not enter males as substitutes for females with places allocated under the 1+1 rule (see 2.3.1).</p>
+<p>Current World and Continental Champions, men and women, who are allowed a discretionary entry to defend their title if not selected as part of the national entry, are not taken into account in the number of pilots of the top nation</p>
+<h2 data-number="2.4" id="registration"><span class="header-section-number">2.4</span> Registration</h2>
+<p>Each competitor will be required to present to the organizers upon registration:</p>
+<ul>
+<li><p>Proof of identity.</p></li>
+<li><p>Satisfactory evidence of equipment airworthiness.</p></li>
+<li><p>Proof of valid insurance as detailed.</p></li>
+<li><p>Each competitor will be requested to sign:</p></li>
+<li><p>Waiver declaration (agreement on release of liability). See Section 7I Guidelines and Templates Chapter 12.</p></li>
+<li><p>Certified glider statement. See Section 7I Guidelines and Templates Chapter 16.</p></li>
+<li><p>Entry form.</p></li>
+</ul>
+<p>Each competitor will be requested to present his equipment to be checked by the Safety Director and/or a Senior Judge. In case of non-compliance (see Chapter 8), the pilot might not be accepted.</p>
+<h1 data-number="3" id="runs"><span class="header-section-number">3</span> RUNS</h1>
+<h2 data-number="3.1" id="official-practice-period"><span class="header-section-number">3.1</span> Official Practice Period</h2>
+<p>As per Section 7 Common Chapter 2. All aspects of the organization are in place except that there is no judging or scoring.</p>
+<p>Timings of the practice runs are stated in the Local Regulations.</p>
+<h2 data-number="3.2" id="cuts"><span class="header-section-number">3.2</span> Cuts</h2>
+<p>Cuts are allowed after a minimum of 2 valid runs.</p>
+<p>Cuts policy is decided by the Meet Director in agreement with the Chief Judge.</p>
+<p>Cuts policy will be presented and discussed during the general briefing.</p>
+<p>Cuts policy may evolve during the event depending on weather or other variable elements. In this case, it is presented during the daily briefing.</p>
+<p>A pilot which has been cut must remain available until the end of the championship for show flights, otherwise he may be disqualified from the competitions.</p>
+<h2 data-number="3.3" id="programs"><span class="header-section-number">3.3</span> Programs</h2>
+<p>Programs may be free, imposed or restricted.</p>
+<p>In an imposed or restricted program, the Meet Director and/or the Chief Judge are entitled to specify technical limitations.</p>
+<h2 data-number="3.4" id="pre-flyers"><span class="header-section-number">3.4</span> Pre-Flyers</h2>
+<p>Pre-flyers may be used at the discretion of the Meet Director.</p>
+<h2 data-number="3.5" id="start-order"><span class="header-section-number">3.5</span> Start Order</h2>
+<p>The starting order of the first run is set by a random draw or the reverse order of the last updated WPRS. For subsequent runs, pilots/pairs will start in the reverse order of the last updated competition standing.</p>
+<p>In case a pilot notices a technical problem to his equipment before taking off, the start marshal or drop master must be informed and a delay might be granted.</p>
+<h2 data-number="3.6" id="announcement-of-program-start"><span class="header-section-number">3.6</span> Announcement of Program Start</h2>
+<p>Before starting the program, every pilot/pair has to make one “big ear” to notify to the judges the start of the run.</p>
+<p>If, before starting the first maneuver, he estimates the conditions unsafe or the altitude too low to complete the run, the judges are notified by making 2 “big ears”. Then the pilot has to fly down immediately to a safe landing without making any aerobatic maneuver.</p>
+<p>The pilot/pair will be allowed a re-flight, except when judges estimate that the pilot/pair showed unsportsmanlike behavior: in this case, warning(s) might be issued. Nevertheless, it is always the pilot’s responsibility when to start his routine.</p>
+<h2 data-number="3.7" id="flight-box-1"><span class="header-section-number">3.7</span> Flight Box</h2>
+<p>Aerobatic maneuvers are only allowed in the flight box.</p>
+<p>The characteristics of the flight box are explained during the general briefing, and when necessary, updated at the daily briefing. A detailed image clearly showing no-fly zones and the general area of the flight box will be permanently displayed on the official information board.</p>
+<p>At take-off, information on the wind strength along the run and at landing must be provided and constantly updated.</p>
+<p>The Meet Director, in agreement with the Safety Director and Chief Judge, define the maximum strength of wind acceptable. This is discussed at the general briefing.</p>
+<p>It is strictly forbidden to fly over the public at any height (immediate elimination from the competition), even when the flight box technically extends over that area (no fly zone).</p>
+<h2 data-number="3.8" id="emergency-stop-signal"><span class="header-section-number">3.8</span> Emergency Stop Signal</h2>
+<p>In case of emergency, the flight box can be closed.</p>
+<p>A sound signal (loud enough to be heard by pilots) and/or a visual signal (cross and additionally a smoke bomb can be used) over the raft to announce that all aerobatics maneuvers and all water landings must immediately stop. Pilots in the air must fly down and dry land safely.</p>
+<h2 data-number="3.9" id="re-flight"><span class="header-section-number">3.9</span> Re-flight</h2>
+<p>The Meet Director or the Chief Judge may allow a re-flight if a pilot/pair has not been given the opportunity to make a scored run. In case of a re-flight the pilot/pair shall repeat the same maneuvers that had been flown prior to the moment the run was interrupted. When a pilot/pair is disturbed by any external factor during the landing (safety boat, unauthorized craft, swimmers etc.) only the landing will be repeated and scored, and will be preceded by the last maneuver flown during the interrupted run.</p>
+<p>When, for any reason (weather, lack of time…), a re-flight cannot be granted during the final run of a competition, for this run the concerned pilots/pairs will be awarded the same score achieved by the pilot/pair ranked, in that same final run, at the position corresponding to the competition standings after the last completed run, provided that not more than 3 pilots/pairs are affected, and that none of them was ranked in the top 5 of the competition standings after the last validated run.</p>
+<p>Otherwise, the final run is cancelled.</p>
+<p>Example. After run 3, a pilot is 7th in the competition standings. He cannot complete the final run due to a thunderstorm. For run 4, he will be awarded the same points obtained by the pilot ranked 7th in run 4.</p>
+<h2 data-number="3.10" id="validation-of-run"><span class="header-section-number">3.10</span> Validation of Run</h2>
+<p>A run is valid if all competitors have been given the opportunity to make a scored flight.</p>
+<p>In case of difficulties (meteorological conditions, logistics etc.), the Meet Director may decide to cancel or stop a run after consultation with the Safety Director, Chief Judge and Pilots' Committee.</p>
+<p>If a run cannot be completed one day, it will be continued on the next scheduled day, provided that similar meteorological conditions prevail.</p>
+<p>If the final run of a competition cannot be completed before the time limit agreed with the organizer, and the exception stated under 4.9 cannot be applied, the final run is cancelled and all scores obtained before the interruption are disregarded.</p>
+<h2 data-number="3.11" id="communication"><span class="header-section-number">3.11</span> Communication</h2>
+<p>Radios and / or mobile phones can be used for communication, including between pilots of the same pair. The start of the run must be communicated by operating staff to the judges who will acknowledge confirmation.</p>
+<h1 data-number="4" id="maneuver-definitions-and-evaluation-criteria"><span class="header-section-number">4</span> MANEUVER DEFINITIONS AND EVALUATION CRITERIA</h1>
+<h2 data-number="4.1" id="solo-and-synchro"><span class="header-section-number">4.1</span> Solo and Synchro</h2>
+<p>Maneuver</p>
+<ul>
+<li><p>Description, minimum criteria</p></li>
+<li><p>Technical evaluation criteria</p></li>
+<li><p>Twisted, Reversed and Flipped criteria</p></li>
+<li><p>Connections and other criteria</p></li>
+<li><p>Technical scoring coefficient</p></li>
+<li><p>Choreography bonus</p></li>
+</ul>
+<p>Full Stall</p>
+<ul>
+<li><p>No specified duration.</p></li>
+<li><p>Entry, control of pendulum movement, control of direction and exit or connection.</p></li>
+<li><p>Twisted Full Stall: twisted on the entry, stay twisted when the glider stalls, untwist during the dive.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Repetition allowed according to chapter 6.5.1.4</p></li>
+<li><p>Technical scoring coefficient: 1.00</p></li>
+<li><p>Choreography twisted bonus: +2.5%</p></li>
+<li><p>Choreography twisted exit bonus: +4.5%</p></li>
+</ul>
+<p>Tail Slide</p>
+<ul>
+<li><p>Stabilized backward flying with open glider. Minimum 5 seconds.</p></li>
+<li><p>Maintenance of the shape, stability, perceptible backwards flight, control of direction, duration, exit or connection.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Repetition allowed according to chapter 6.5.1.4</p></li>
+<li><p>Twisted Tail Slide: twisted all the way from entry to exit.</p></li>
+<li><p>Technical scoring coefficient: 1.15</p></li>
+<li><p>Choreography twisted bonus: 6%</p></li>
+</ul>
+<p>SAT</p>
+<ul>
+<li><p>Evenly balanced SAT rotation. Minimum 2 rotations in SAT.</p></li>
+<li><p>Entry, angle of wing (90° for max score), low sink rate exit or connection (no collapse penalty for tip collapse during exit).</p></li>
+<li><p>Twisted SAT: twisted on the entry, must stay twisted for 2 turns can be exited untwisted. </p></li>
+<li><p>Forbidden connection to combo manoeuvres.</p></li>
+<li><p>Technical scoring coefficient: 1.25</p></li>
+<li><p>Choreography twisted bonus: +2.5%</p></li>
+</ul>
+<p>Wingover</p>
+<ul>
+<li><p>Series of pendulum turns with change of direction each time. Minimum twice to one side, twice to the other side with high angle (minimum 135°).</p></li>
+<li><p>Rhythm, flow, trajectory, angle (minimum 135° for maximum score – the higher the better).</p></li>
+<li><p>Twisted Wingover: must be twisted during the entry, and stays twisted until the glider stabilises.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Repetition allowed according to chapter 6.5.1.4</p></li>
+<li><p>Technical scoring coefficient: 1.35</p></li>
+<li><p>Choreography twisted bonus: +3.5%</p></li>
+</ul>
+<p>Asymmetric Spiral</p>
+<ul>
+<li><p>Series of pendulum turns in the same direction each time.</p></li>
+<li><p>Rhythm, flow, trajectory, angle (135° for maximum score - the higher the better).</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Technical scoring coefficient: 1.35</p></li>
+</ul>
+<p>Looping (inversion)</p>
+<ul>
+<li><p>Entry from asymmetric spiral or a normal spiral. Reversal of a revolution that makes the pilot turn around the wing in a roll movement. Minimum angle: 135°.</p></li>
+<li><p>Entry, energy, timing, flow, trajectory (pitch movement), angle (180° for maximum score), exit or connection.</p></li>
+<li><p>Twisted Looping: twisted on the entry, must stay twisted until the glider stabilises.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Technical scoring coefficient: 1.50</p></li>
+<li><p>Choreography twisted bonus: +3.5%</p></li>
+</ul>
+<p>Asymmetric SAT</p>
+<ul>
+<li><p>Entry from, say, spiral or wingover in same direction (old school).</p></li>
+<li><p>Energy, timing, flow, trajectory (SAT rotation), angle (135° for maximum score), asymmetric dynamic exit (no collapse, no stall).</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Technical scoring coefficient: 1.55</p></li>
+</ul>
+<p>Dynamic Full Stall (Super Stall)</p>
+<ul>
+<li><p>Straight climb. Minimum 1 rotation (minimum 45° backwards pitch) + full stall. No specified duration.</p></li>
+<li><p>Energy, importance of pitch (90° for maximum score), control of direction and exit or connection.</p></li>
+<li><p>Twisted Dynamic Full Stall: twisted on the entry, stay twisted when the glider stalls, untwist during the dive.</p></li>
+<li><p>Twist to Twist (Devil twist) Dynamic Full stall: twisted on the entry, untwist during the stall and immediately twist to the other direction, must exit twisted. The twist must be kept for at least 3 seconds or until the next manoeuvre. </p></li>
+<li><p>Flipped Dynamic Full Stall: body flip either forward or backwards during the stall. Flip may begin during the climb out and must be completed before the dive.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Repetition allowed according to chapter 6.5.1.4</p></li>
+<li><p>Technical scoring coefficient: 1.60</p></li>
+<li><p>Choreography twisted bonus: +2.5%</p></li>
+<li><p>Choreography twisted exit bonus: +6%</p></li>
+<li><p>Choreography twist to twist bonus: +9%</p></li>
+<li><p>Choreography flipped bonus: +4.5%</p></li>
+<li><p>Choreography double flipped bonus: +5.5%</p></li>
+</ul>
+<p>Misty Flip</p>
+<ul>
+<li><p>Straight entry &amp; climb, 360° spin, straight horizontal dive, exit not more than 180° from the direction of entry.</p></li>
+<li><p>Importance of pitch on entry, 360°rotation, maintenance of shape, strong dive, no rotation on entry and exit, direction.</p></li>
+<li><p>Twisted Misty Flip: twisted on the entry, untwisted by the rotation of the glider.</p></li>
+<li><p>Twisted exit: the twist shall be kept for at least 3 seconds</p></li>
+<li><p>Fully twisted: keep the twist during the all manoeuvre from beginning till exit as well as during the whole rotation. No change of direction of the twist. Twist shall be kept for at least 3 seconds or until the next trick.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Technical scoring coefficient: 1.65</p></li>
+<li><p>Choreography twisted bonus: +2.5%</p></li>
+<li><p>Choreography twisted exit bonus (Twisty Twist): +4.5%</p></li>
+<li><p>Choreography fully twisted bonus: +8%</p></li>
+</ul>
+<p>Mac Twist</p>
+<ul>
+<li><p>Spin from spiral maintained until pendulum stabilised. Minimum 90° for maximum score.</p></li>
+<li><p>Energy and asymmetry on entry, speed and importance of rotation, pendulum stabilisation, fast exit or connection.</p></li>
+<li><p>Twisted Mac Twist: must be twisted during the entry, untwisted by the rotation of the Mac Twist Twisted.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Technical scoring coefficient: 1.70</p></li>
+<li><p>Choreography twisted bonus: +3.5%</p></li>
+</ul>
+<p>Helicopter</p>
+<ul>
+<li><p>Perfect spin with open glider and vertical axe of rotation. Minimum 3 rotations.</p></li>
+<li><p>Maintenance of the shape, stability of rotation axis (vertical), speed of rotation, low sink rate, duration, exit or connection.</p></li>
+<li><p>Twisted Helicopter: twisting during the helicopter, must stay twisted for 2 turns, can untwist for the exit.</p></li>
+<li><p>Forbidden connection to combo manoeuvres (Twister, Helicopter-SAT…).</p></li>
+<li><p>Technical scoring coefficient: 1.70</p></li>
+<li><p>Choreography twisted bonus: +3%</p></li>
+</ul>
+<p>X-Chopper</p>
+<ul>
+<li><p>Entry with high energy, constant &amp; rapid climb, minimum 90°, minimum 360° spin, strong dive, exit dive not more than 270° from the direction of entry.</p></li>
+<li><p>Importance of pitch on entry, minimum 360° rotation, energy, maintenance of shape, strong dive.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Twisted X- Chopper: twisted on the entry, untwisted by the rotation of the glider.</p></li>
+<li><p>Technical scoring coefficient: 1.70</p></li>
+<li><p>Choreography twisted bonus: +3.5%</p></li>
+</ul>
+<p>Misty to SAT</p>
+<ul>
+<li><p>Same criteria as for a Misty Flip. Minimum 45° climb before rotation + transition to SAT + SAT criteria.</p></li>
+<li><p>Flow and speed of transition.</p></li>
+<li><p>Twisted Misty to SAT: must be twisted during the entry, untwisted by the rotation of the Misty flip.</p></li>
+<li><p>Forbidden connection to SAT.</p></li>
+<li><p>Technical scoring coefficient: 1.70</p></li>
+<li><p>Choreography twisted bonus: +3%</p></li>
+</ul>
+<p>Misty to Misty</p>
+<ul>
+<li><p>Same criteria as for Misty Flip, transition: use the exit energy of the first Misty for the next one.</p></li>
+<li><p>Direction must be changed.</p></li>
+<li><p>Twisted Misty to Misty: twisted on the entry, untwisted by the rotation of the glider.</p></li>
+<li><p>Twisted exit: the twist shall be kept for at least 3 seconds.</p></li>
+<li><p>Technical scoring coefficient: 1.75</p></li>
+<li><p>Choreography twisted bonus: +3.5%</p></li>
+<li><p>Choreography twisted exit bonus (Twisty Twist to Twisty Twist): +5.5%</p></li>
+</ul>
+<p>Misty to Helicopter</p>
+<ul>
+<li><p>Same criteria as for a Misty Flip. Minimum 45° climb before rotation + transition to Helicopter + Helicopter criteria.</p></li>
+<li><p>Flow and speed of transition.</p></li>
+<li><p>Twisted Misty to Helicopter: must be twisted during the entry, untwisted by the rotation of the Misty.</p></li>
+<li><p>Reversed Misty to Helicopter: immediate transition to a Helicopter in the opposite direction.</p></li>
+<li><p>Forbidden connection to Helicopter.</p></li>
+<li><p>Technical scoring coefficient: 1.75</p></li>
+<li><p>Choreography twisted bonus: +3%</p></li>
+<li><p>Choreography reversed bonus: +3%</p></li>
+</ul>
+<p>Tumbling</p>
+<ul>
+<li><p>Asymmetric or inversion entry, perfect pitch movement. Minimum 1 rotation.</p></li>
+<li><p>Energy on entry, timing, flow, trajectory (pitch movement), angle (180° for maximum score, minimum 135°), exit or connection.</p></li>
+<li><p>Forbidden connection to Infinite.</p></li>
+<li><p>Twisted Tumbling: twisted on the entry, must stay twisted, untwist at the exit NOT during the turns.</p></li>
+<li><p>This manoeuvre cannot be one of the last two manoeuvres.</p></li>
+<li><p>Technical scoring coefficient: 1.80</p></li>
+<li><p>Choreography twisted bonus: +4.5%</p></li>
+<li><p>Choreography twisted exit bonus: +6%</p></li>
+</ul>
+<p>Anti-Rhythmic SAT</p>
+<ul>
+<li><p>Entry by Tumbling, minimum 135° in the first rotation (180° for maximum points) + 1 SAT rotation at the end.</p></li>
+<li><p>Rhythm and regularity of the decreasing angle of the axis, flow, exit or connection.</p></li>
+<li><p>Twisted Anti Rhythmic SAT from Cab Slide: twist during the Infinite turns, must stay twisted until the SAT. Must stay twisted for 1 SAT rotation, can untwist for the exit.</p></li>
+<li><p>Twisted Anti Rhythmic SAT from Tumbling: twisted on the entry, must stay twisted until the SAT. Must stay twisted for 1 SAT turn, can untwist for the exit.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>This manoeuvre cannot be one of last two manoeuvres.</p></li>
+<li><p>Technical scoring coefficient: 1.80</p></li>
+<li><p>Choreography twisted bonus: +4.5%</p></li>
+</ul>
+<p>SAT to Helicopter</p>
+<ul>
+<li><p>Minimum 2 SAT rotations + connection +minimum 3 Helicopter rotations.</p></li>
+<li><p>Flow and speed of transition.</p></li>
+<li><p>Twisted SAT to Helicopter: twisted on the entry, must be untwisted during the transition into helicopter, NOT before.</p></li>
+<li><p>Reversed SAT to Helicopter: immediate transition to a Helicopter in the opposite direction.</p></li>
+<li><p>Forbidden connection to Helicopter.</p></li>
+<li><p>Technical scoring coefficient: 1.85</p></li>
+<li><p>Choreography twisted bonus: +4.5%</p></li>
+<li><p>Choreography reversed bonus: +4.5%</p></li>
+</ul>
+<p>Mac Twist to Helicopter</p>
+<ul>
+<li><p>Mac Twist criteria + spiral maintained to Helicopter +minimum 3 Helicopter rotations.</p></li>
+<li><p>Flow and speed of transition.</p></li>
+<li><p>Twisted Mac Twist to Helicopter: must be twisted during the entry, untwisted by the rotation of the Mac Twist.</p></li>
+<li><p>Reversed Mac Twist to Helicopter: immediate transition to a Helicopter in the opposite direction. </p></li>
+<li><p>Forbidden connection to Helicopter.</p></li>
+<li><p>Technical scoring coefficient: 1.85</p></li>
+<li><p>Choreography twisted bonus: +4.5%</p></li>
+</ul>
+<blockquote>
+<p>Choreography reversed bonus: +3.5%</p>
+</blockquote>
+<p>Twister (Helicopter to Helicopter)</p>
+<ul>
+<li><p>Helicopter to one side, Helicopter to other side. Minimum 3 rotations each side.</p></li>
+<li><p>Speed of transition.</p></li>
+<li><p>Forbidden connection to Helicopter.</p></li>
+<li><p>Technical scoring coefficient: 1.85</p></li>
+</ul>
+<p>Helicopter to SAT</p>
+<ul>
+<li><p>Minimum 3 Helicopter rotations + connection to minimum 2 SAT rotations.</p></li>
+<li><p>No rotation on entry and exit, direction.</p></li>
+<li><p>Twisted Helicopter to SAT: twist during the helicopter. Must stay twisted during the whole transition, at least 1 turn of SAT twisted. Can untwist on the exit.</p></li>
+<li><p>Reversed Helicopter to SAT: immediate transition to a SAT in the opposite direction.</p></li>
+<li><p>Forbidden connection to SAT.</p></li>
+<li><p>Technical scoring coefficient: 1.85</p></li>
+<li><p>Choreography twisted bonus: +4.5%</p></li>
+<li><p>Choreography reversed bonus: +4%</p></li>
+</ul>
+<p>Corkscrew</p>
+<ul>
+<li><p>Spin during the entry over the glider (minimum 120°) into a Helicopter.</p></li>
+<li><p>Energy on entry, timing, flow. Stable entry into the Helicopter.</p></li>
+<li><p>Twisted Corkscrew: twisted during the entry, untwisted by the rotation of the cork.</p></li>
+<li><p>Reversed Corkscrew: immediate transition to a Helicopter in the opposite direction.</p></li>
+<li><p>Forbidden connection to helicopter.</p></li>
+<li><p>Technical scoring coefficient: 1.90</p></li>
+<li><p>Choreography twisted bonus: +4.5%</p></li>
+<li><p>Choreography reversed bonus: +4%</p></li>
+</ul>
+<p>Cowboy</p>
+<ul>
+<li><p>Misty Flip to dive to Helicopter.</p></li>
+<li><p>Same criteria as for Misty Flip. Minimum 45° climb before rotation + forward dive + short SAT move + transition to Helicopter + Helicopter criteria.</p></li>
+<li><p>Twisted Cowboy: must be twisted during the entry, untwisted by the rotation of the Misty.</p></li>
+<li><p>Forbidden connection to Helicopter.</p></li>
+<li><p>Technical scoring coefficient: 1.90</p></li>
+<li><p>Choreography twisted bonus: +4%</p></li>
+</ul>
+<p>Infinite Tumbling</p>
+<ul>
+<li><p>Series of perfect Tumbling (pitch movement). Minimum entry plus 5 rotations.</p></li>
+<li><p>Rhythm, flow, trajectory (no roll movement), tension in the lines and glider, duration, exit or connection.</p></li>
+<li><p>Twisted Infinite: twisted on the entry, must stay twisted, untwist at exit and NOT during the turns.</p></li>
+<li><p>Flipped Infinite Tumbling: body flip either forward or backwards during the Infinite Tumbling. Flip must begin and end at the same point of one full rotation.</p></li>
+<li><p>Forbidden connection to Tumbling or Anti-Rhythmic SAT.</p></li>
+<li><p>This manoeuvre cannot be one of last two manoeuvres.</p></li>
+<li><p>Technical scoring coefficient: 1.90</p></li>
+<li><p>Choreography twisted bonus: +4.5%</p></li>
+<li><p>Choreography twisted exit bonus: +6%</p></li>
+<li><p>Choreography flipped bonus: +6%</p></li>
+</ul>
+<p>Rhythmic SAT</p>
+<ul>
+<li><p>Entry without pitch, constant progression. Minimum 135° in the best rotation, 180° for maximum points + 1 straight rotation at the end.</p></li>
+<li><p>Rhythm and regularity of the variation of the axis, flow, angle, exit or connection.</p></li>
+<li><p>Twisted Rhythmic SAT: twisted on the entry, must stay twisted, untwist at the exit and NOT during the turns.</p></li>
+<li><p>Forbidden connection to Tumbling, Infinite and Anti Rhythmic.</p></li>
+<li><p>This manoeuvre cannot be one of last two manoeuvres.</p></li>
+<li><p>Technical scoring coefficient: 1.95</p></li>
+<li><p>Choreography twisted bonus: +5.5%</p></li>
+<li><p>Choreography twisted exit bonus: +6%</p></li>
+</ul>
+<p>Joker</p>
+<ul>
+<li><p>Tumbling entry. 1 rotation only, stopped during the dive. Exit with high energy connected to a Helicopter to the same side + SAT to Helicopter connection.</p></li>
+<li><p>Energy on entry, timing, flow, energy on exit, angle, connection to Helicopter (fluidity, rapidity). Only 1 Tumbling rotation.</p></li>
+<li><p>Twisted Joker: twisted on the entry, twisted on the dive, must untwist during the connection into helicopter.</p></li>
+<li><p>Reversed Joker: immediate transition to a Helicopter in the opposite direction. </p></li>
+<li><p>Forbidden connection to Helicopter.</p></li>
+<li><p>Technical scoring coefficient: 1.95</p></li>
+<li><p>Choreography twisted bonus: +5%</p></li>
+<li><p>Choreography reversed bonus: +4.5%</p></li>
+</ul>
+<p>Esfera</p>
+<ul>
+<li><p>Rhythmic SAT pulled to the vertical and followed by an Anti-Rhythmic to the other side.</p></li>
+<li><p>Twisted Esfera: twisted on the entry. Must stay twisted until going vertical, untwist when vertical and twist again on the other side for the Anti-Rhythmic. Must stay twisted for at least one SAT rotation. Can exit untwisted. The pilot must twist immediately after untwisting. Untwist during 1 rotation and twist again during the next rotation.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>This manoeuvre cannot be one of the last two manoeuvres.</p></li>
+<li><p>Technical scoring coefficient: 2.00</p></li>
+<li><p>Choreography twisted bonus: +6%</p></li>
+</ul>
+<p>Misty to Tumbling</p>
+<ul>
+<li><p>Misty Flip followed by a high Tumbling using dive into the Misty Flip.</p></li>
+<li><p>Energy on entry, timing, flow.</p></li>
+<li><p>Possibility to connect to Infinite Tumbling.</p></li>
+<li><p>This manoeuvre cannot be one of the last two manoeuvres.</p></li>
+<li><p>Twisted Misty to Tumbling: twisted on the entry, untwisted by the rotation of the glider</p></li>
+<li><p>Technical scoring coefficient: 2.10</p></li>
+<li><p>Choreography twisted bonus: +6%</p></li>
+</ul>
+<p>Flat Stall to Infinite Tumbling</p>
+<ul>
+<li><p>Full Stall directly connected into an Infinite Tumbling. The Full Stall must not necessarily be high but shall be perfectly straight. The pilot must not take any energy before the stall. It must come from a straight flying scenario, no pitch before the stall. Minimum entry plus 3 rotations.</p></li>
+<li><p>Rhythm, flow, trajectory (no roll movement), tension in the lines and glider, duration, exit or connection.</p></li>
+<li><p>Forbidden connection to Anti-Rhythmic SAT (twisted or not).</p></li>
+<li><p>This manoeuvre cannot be one of last two manoeuvres. This manoeuvre MUST be the first manoeuvre.</p></li>
+<li><p>Technical scoring coefficient: 2.20</p></li>
+</ul>
+<p>Super Stall to Infinite Tumbling</p>
+<ul>
+<li><p>Dynamic Full Stall directly connected into an Infinite Tumbling. The Full Stall must not necessarily be high but shall be perfectly straight. Minimum entry plus 3 rotations.</p></li>
+<li><p>Rhythm, flow, trajectory (no roll movement), tension in the lines and glider, duration, exit or connection.</p></li>
+<li><p>Twisted Super Stall to Infinite Tumbling: The Full stall is performed twisted, untwist after the glider stalled and proceed into the Infinity Tumbling.</p></li>
+<li><p>Twisted Super Stall to twisted Infinite Tumbling: twisted Full Stall, the twist is kept during the entire shoot and entry into a twisted Infinite Tumbling, the twist is then kept for the entire duration of the Infinite Tumbling. After 3 rotations twisted the pilot can either untwist and exit or stay twisted.</p></li>
+<li><p>Flipped Super Stall to Infinite Tumbling: the pilot performs a flip just after the glider stalled, proceed into the Infinity Tumbling.</p></li>
+<li><p>Forbidden connection to Anti-Rhythmic SAT (twisted or not)</p></li>
+<li><p>This manoeuvre cannot be one of last two manoeuvres.</p></li>
+<li><p>Technical scoring coefficient: 2.20</p></li>
+<li><p>Choreography twisted bonus: +5%</p></li>
+<li><p>Choreography twisted exit bonus: +5%</p></li>
+<li><p>Choreography twisted infinite exit bonus: +2% (if the pilot exit the infinite twisted)</p></li>
+<li><p>Choreography flipped bonus: +6.5%</p></li>
+</ul>
+<p>Tail Slide/Deep Stall to Infinite Tumbling</p>
+<ul>
+<li><p>Tail Slide or deep stall directly connected into an Infinite Tumbling. The Tail Slide/Deep Stall must not necessarily be long but shall be from either straight flying or a trick. The pilot enters the Infinite Tumbling from a Tail Slide or a Deep Stall. The pilot can enter this TailSlide/DeepStall from either straight flying or from the exit of another trick. Minimum entry plus 3 rotations.</p></li>
+<li><p>Rhythm, flow, trajectory (no roll movement), tension in the lines and glider, duration, exit or connection.</p></li>
+<li><p>Forbidden connection to Anti-Rhythmic SAT (twisted or not)</p></li>
+<li><p>Forbidden connection from Dynamic Full Stall, Infinite Tumbling, Tumbling, Rhythmic SAT, Asymmetric SAT, Misty Flip, X-Chopper, Misty to Misty.</p></li>
+<li><p>This manoeuvre MUST be connected from a Helicopter / Mac Twist connections (e.g Helicopter to Deep Stall to infinity, Mac Twist to Deep Stall to Infinite Tumbling…)</p></li>
+<li><p>This manoeuvre cannot be one of last two manoeuvres.</p></li>
+<li><p>Technical scoring coefficient: 2.25</p></li>
+</ul>
+<h2 data-number="4.2" id="synchro-only"><span class="header-section-number">4.2</span> Synchro only</h2>
+<p>Maneuver</p>
+<ul>
+<li><p>Description, minimum criteria</p></li>
+<li><p>Technical evaluation criteria</p></li>
+<li><p>Twisted, Reversed and Flipped criteria</p></li>
+<li><p>Connections and other criteria</p></li>
+<li><p>Technical scoring coefficient</p></li>
+<li><p>Choreography bonus</p></li>
+</ul>
+<p>WingOvers Opposite</p>
+<ul>
+<li><p>Rapid and synchronised entry. Pilots should be vertically aligned for maximum score.</p></li>
+<li><p>Series of pendulum turns with change of direction each time. Minimum twice to one side, twice to</p></li>
+<li><p>the other side with high angle (minimum 135°) the pilots perform the turns to the opposite direction of each other.</p></li>
+<li><p>Rhythm, flow, trajectory, angle (minimum 135° for maximum score – the higher the better).</p></li>
+<li><p>Twisted Wingover: must be twisted during the entry and stay twisted until the glider stabilizes.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Repetition allowed according to chapter 6.5.1.4</p></li>
+<li><p>Technical scoring coefficient: 1.60</p></li>
+<li><p>Choreography twisted bonus: +3.5%</p></li>
+</ul>
+<p>Synchro Asymmetric Spiral</p>
+<ul>
+<li><p>Series of pendulum turns in the same time and direction during a synchro spiral.</p></li>
+<li><p>Minimum twice to the same side.</p></li>
+<li><p>Synchronized and rapid entry, proximity of the wings, controlled exit.</p></li>
+<li><p>Rhythm, flow, trajectory, angle (135° for maximum score - the higher the better).</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Technical scoring coefficient: 1.65</p></li>
+</ul>
+<p>Rodeo SAT</p>
+<ul>
+<li><p>Synchronised and rapid entry, proximity of the wings, flow, duration, exit.</p></li>
+<li><p>Minimum 2 revolutions around the SAT at the same altitude.</p></li>
+<li><p>Twisted Rodeo SAT: the SAT must be twisted on the entry, must stay twisted for 2 turns, can be exited untwisted.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Technical scoring coefficient: 1.65</p></li>
+<li><p>Choreography twisted bonus: +2.5%</p></li>
+</ul>
+<p>Rodeo Helicopter</p>
+<ul>
+<li><p>Synchronised and rapid entry, proximity of the wings, flow, duration, exit.</p></li>
+<li><p>Minimum 2 spiral revolutions around the helicopter at the same altitude.</p></li>
+<li><p>Twisted Rodeo Helicopter: twisting during the helicopter, must stay twisted for 2 turns, can untwist for exit.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Technical scoring coefficient: 1.70</p></li>
+<li><p>Choreography twisted bonus: +3%</p></li>
+</ul>
+<p>Bitch Switch</p>
+<ul>
+<li><p>Synchronised and rapid entry, proximity of the wings flow duration, synchronised and rapid switch, exit.</p></li>
+<li><p>Minimum 2 spiral revolutions around the SAT at the same altitude for each pilot.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Technical scoring coefficient: 1.75</p></li>
+</ul>
+<p>Synchro Half Pipe Combo</p>
+<ul>
+<li><p>Straight entry, minimum 45° climb before rotation &amp; 180° spin, straight horizontal dive, exit 180° from the direction of entry, in transition use the exit energy of the first Half Pipe for the next one.</p></li>
+<li><p>Direction must be changed.</p></li>
+<li><p>Pilots must stay close to each other for maximum score.</p></li>
+<li><p>Importance of pitch on entry, 180° rotation, maintenance of shape, strong dive, no rotation on entry and exit.</p></li>
+<li><p>Twisted Half Pipe Combo: twisted on the entry, untwisted by the rotation of the glider.</p></li>
+<li><p>Fully twisted: keep the twist during the all manoeuvre from beginning till exit as well as during the whole rotation. No change of direction of the twist. Twist shall be kept for at least 3 seconds or until the next trick.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Technical scoring coefficient: 1.75</p></li>
+<li><p>Choreography twisted bonus: +3.5%</p></li>
+<li><p>Choreography fully twisted exit bonus: +5.5%</p></li>
+</ul>
+<p>Bro Hook</p>
+<ul>
+<li><p>One pilot flies straight, the other pilot approaches from behind and connects.</p></li>
+<li><p>Flow, entry, duration (min 4 sec.), disconnection.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Repetition allowed according to chapter 6.5.1.4</p></li>
+<li><p>Technical scoring coefficient: 1.80</p></li>
+</ul>
+<p>Synchro Spiral</p>
+<ul>
+<li><p>Synchronised and rapid entry, proximity of the wings, duration, high sink rate, rapid and controlled exit.</p></li>
+<li><p>One touch wing for maximal score.</p></li>
+<li><p>Minimum 2 revolutions, maximum distance is one paraglider line length between (approx. 10m).</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Technical scoring coefficient: 1.80</p></li>
+<li><p>Double or triple touch in one turn. Bonus: +2%</p></li>
+</ul>
+<p>Wingovers Cruzados</p>
+<ul>
+<li><p>Same criteria as Wingover Opposite but the pilots must cross each other during the maneuver.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Repetition allowed according to chapter 6.5.1.4</p></li>
+<li><p>Technical scoring coefficient: 1.85</p></li>
+</ul>
+<p>360° Synchro Spiral to Half Pipe Combo</p>
+<ul>
+<li><p>Combination of a Synchro Spiral and Half Pipe Combo.</p></li>
+<li><p>After a turn –360°- of Synchro Spiral the pilots connect to a half pipe and exit it towards each other and start another 360° turn to the other direction in Synchro Spiral, after the turn another connection to a Half Pipe.</p></li>
+<li><p>Synchronized and rapid entry, proximity of the wings, rapid and controlled connections and change of directions.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Technical scoring coefficient: 1.85</p></li>
+</ul>
+<p>Bro Hook Lateral Wings</p>
+<ul>
+<li><p>One pilot flies straight twisted, the other approaches from behind and connects. After the connection both pilots must position their wings in lateral position – inside tip touch.</p></li>
+<li><p>Flow, entry, duration (min 4 sec.), disconnection.</p></li>
+<li><p>No connection to other Bro Hook maneuvers.</p></li>
+<li><p>Repetition allowed according to chapter 6.5.1.4</p></li>
+<li><p>Technical scoring coefficient: 1.85</p></li>
+</ul>
+<p>Bro Hook Spiral</p>
+<ul>
+<li><p>Same criteria as Bro Hook. After the connection the pilots must dive into a spiral.</p></li>
+<li><p>Flow, entry, duration (min 4 sec.), disconnection.</p></li>
+<li><p>Twisted: One pilot has to stay twisted from entry until exit.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Repetition allowed according to chapter 6.5.1.4</p></li>
+<li><p>Technical scoring coefficient: 1.90</p></li>
+<li><p>Twisted bonus: +2%</p></li>
+</ul>
+<p>Pitch Pendulum Synchro</p>
+<ul>
+<li><p>Rapid and synchronised entry. Pilots should be vertically aligned for maximum score.</p></li>
+<li><p>Minimum twice, one over the other.</p></li>
+<li><p>Twisted Pitch Pendulum: both pilots must stay twisted during at least 2 revolutions.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Repetition allowed according to chapter 6.5.1.4</p></li>
+<li><p>This manoeuvre can only be one of the last 2 manoeuvres.</p></li>
+<li><p>Technical scoring coefficient: 1.95</p></li>
+<li><p>Choreography twisted bonus: +6%</p></li>
+</ul>
+<p>Bro Hook Wingovers</p>
+<ul>
+<li><p>Same criteria as Wingover but in Bro Hook position. Both pilots must stay connected during the maneuver until the gliders stabilize.</p></li>
+<li><p>Series of pendulum turns with change of direction each time. Minimum twice to one side, twice to the other side with high angle (minimum 135°).</p></li>
+<li><p>Rhythm, flow, trajectory, angle (minimum 135° for maximum score – the higher the better).</p></li>
+<li><p>Twisted: One pilot has to stay twisted from entry until exit.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Repetition allowed according to chapter 6.5.1.4</p></li>
+<li><p>Technical scoring coefficient: 1.95</p></li>
+<li><p>Twisted bonus: +2%</p></li>
+</ul>
+<p>Fusion</p>
+<ul>
+<li><p>Start from Bro Hook Lateral position. Both pilots spin the wings into deep stall with the leading edge facing each other.</p></li>
+<li><p>Maintenance of the shape, flow, entry, duration (min 4 sec.), disconnection.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>Repetition allowed according to chapter 6.5.1.4</p></li>
+<li><p>This manoeuvre cannot be one of last two manoeuvres.</p></li>
+<li><p>Technical scoring coefficient: 2.20</p></li>
+</ul>
+<p>Fusion Helico</p>
+<ul>
+<li><p>Start from Fusion position into helicopter.</p></li>
+<li><p>Maintenance of the shape, flow, entry, minimum 1 rotation, disconnection.</p></li>
+<li><p>Free connection.</p></li>
+<li><p>This manoeuvre cannot be one of last two manoeuvres.</p></li>
+<li><p>Technical scoring coefficient: 2.25</p></li>
+</ul>
+<h2 data-number="4.3" id="landing-solo-and-synchro"><span class="header-section-number">4.3</span> Landing (Solo and Synchro)</h2>
+<p>Manoeuvre</p>
+<ul>
+<li><p>Description, minimum criteria</p></li>
+<li><p>Technical evaluation criteria</p></li>
+</ul>
+<p>Approach and precision</p>
+<ul>
+<li><p>Land on the raft for maximum score.</p></li>
+<li><p>Quality of the approach and precision (distance to the raft).</p></li>
+</ul>
+<p>Raft</p>
+<ul>
+<li><p>Pilot landing smoothly on his feet for maximum score.</p></li>
+<li><p>Landing fully on the raft.</p></li>
+</ul>
+<p>Ground Spiral</p>
+<ul>
+<li><p>Minimum 360° revolution, height of wing tip over water, less than3m at the lowest point.</p></li>
+<li><p>Entry (speed, sink rate), height of wing tip over water (touch for max. score).</p></li>
+</ul>
+<p>Hand touch</p>
+<ul>
+<li>Precision, length of touch with hand.</li>
+</ul>
+<p>Foot touch</p>
+<ul>
+<li>Precision, length of touch with foot.</li>
+</ul>
+<p>Jesus walk</p>
+<ul>
+<li>Precision, length of walk and frequency of the steps.</li>
+</ul>
+<p>Spin</p>
+<ul>
+<li><p>Minimum rotation: ½ turn before pilot lands.</p></li>
+<li><p>Speed of rotation, good sink rate and standing landing.</p></li>
+</ul>
+<p>Raft flip</p>
+<ul>
+<li>Control and effectiveness</li>
+</ul>
+<h2 data-number="4.4" id="synchro-only-1"><span class="header-section-number">4.4</span> Synchro only</h2>
+<p>Synchro Ground Spiral</p>
+<ul>
+<li><p>Minimum 720° revolution when performed independently, or 360° when following a Synchro Spiral (total 3 revolutions), height of wing tip below 3m at the lowest point.</p></li>
+<li><p>Entry (speed, sink rate), height of wing tip over water (touch for maximum score) in close proximity to each other.</p></li>
+</ul>
+<p>Wingovers Cruzado Inside Landing</p>
+<ul>
+<li><p>Same criteria as Wingovers Cruzados.</p></li>
+<li><p>Minimum one pendulum to each side and 360° in spiral.</p></li>
+<li><p>After the last inside pendulum connection to a spiral until the water as a Synchro Ground Spiral.</p></li>
+<li><p>Height of wing tip below 3m at the lowest point.</p></li>
+<li><p>Entry (speed, sink rate), height of wing tip over water (touch for maximum score) in close proximity to each other.</p></li>
+</ul>
+<p>Wingovers Cruzado Outside Landing</p>
+<ul>
+<li><p>Same criteria as Wingovers Cruzados.</p></li>
+<li><p>Minimum one pendulum to each side.</p></li>
+<li><p>After the last outside pendulum connection to a spiral till the water as a Ground Spiral performed individually.</p></li>
+<li><p>Height of wing tip below 3m at the lowest point.</p></li>
+<li><p>Entry (speed, sink rate), height of wing tip over water (touch for maximum score).</p></li>
+</ul>
+<p>Pitch Pendulum Landing</p>
+<ul>
+<li><p>Rapid and synchronized entry. Pilots should be vertically aligned for maximum score.</p></li>
+<li><p>Minimum twice, one over the other.</p></li>
+<li><p>The lower pilot must be less than 3m over the water in the last pitch, 1m or less over the water for maximum score.</p></li>
+</ul>
+<h2 data-number="4.5" id="choreography"><span class="header-section-number">4.5</span> Choreography</h2>
+<p>Maneuver</p>
+<ul>
+<li>Technical evaluation criteria</li>
+</ul>
+<p>Placement and Drift</p>
+<ul>
+<li>For maximum score: start the programme considering the drift of the routine and finish with enough altitude for the (+ spiral) landing approaching the raft.</li>
+</ul>
+<p>Management of Altitude</p>
+<ul>
+<li>Managing all manoeuvres of the programme and using all the altitude available.</li>
+</ul>
+<p>Flow</p>
+<ul>
+<li>Each manoeuvre has to be flown fluently with good energy management.</li>
+</ul>
+<p>Rhythm and Connection</p>
+<ul>
+<li>Good energy management between the manoeuvres and smooth connections.</li>
+</ul>
+<p>Originality and Diversity</p>
+<blockquote>
+<p>Innovative and varied use of spin/stall/dynamic maneuvers. Also moving to both sides left and right. Using different entries for manoeuvres. Appeal to public.</p>
+</blockquote>
+<p>Synchro Coordination</p>
+<ul>
+<li>Maintain the same altitude when performing the manoeuvres. Staying in close proximity to each other. Starting/ending manoeuvres simultaneously.</li>
+</ul>
+<h1 data-number="5" id="scoring"><span class="header-section-number">5</span> SCORING</h1>
+<h2 data-number="5.1" id="competition-validity"><span class="header-section-number">5.1</span> Competition Validity</h2>
+<p>A minimum of 2 runs is required to validate the Championships in each category (Solo and Synchro).</p>
+<p>A maximum of 7 rounds may be flown in each category.</p>
+<h2 data-number="5.2" id="champions"><span class="header-section-number">5.2</span> Champions</h2>
+<h3 data-number="5.2.1" id="solo"><span class="header-section-number">5.2.1</span> Solo</h3>
+<p>The overall score of each pilot is calculated by adding up all his task scores. The winner has the highest scores. Pilots with the same score are ranked in the same position.</p>
+<h3 data-number="5.2.2" id="synchro"><span class="header-section-number">5.2.2</span> Synchro</h3>
+<p>Pairs of pilots can be of the same or different nationalities.</p>
+<p>Pairs of pilots of different nationalities fly under their respective national flags and anthems.</p>
+<p>The overall score of each pair is calculated by adding up all their task scores. The winning pair has the highest score. Pairs with the same score are ranked in the same position.</p>
+<h3 data-number="5.2.3" id="team"><span class="header-section-number">5.2.3</span> Team</h3>
+<p>The number of pilots constituting a national team (X) and the number of pilot scores used to calculate the team score (Y)will be stated in the Local Regulations.</p>
+<p>There is no team competition in Synchro.</p>
+<p>The run score of a nation is calculated by adding up the highest Y scores of that nation’s team pilots (X) for that run. The overall team score is the sum of the run scores. The winning nation has the highest score. Nations with the same score are ranked in the same position.</p>
+<h4 data-number="5.2.3.1" id="non-team-pilots"><span class="header-section-number">5.2.3.1</span> Non Team Pilots</h4>
+<p>The number of pilots entered by a NAC might be higher than the number of pilots constituting a national team. Pilots that are not eligible to score for the national team are eligible to compete for the individual championships.</p>
+<h3 data-number="5.2.4" id="tied-scores"><span class="header-section-number">5.2.4</span> Tied Scores</h3>
+<p>If, at the end of the competition there is a tie for any of the first three places, the pilot or pair with the highest run score will be declared the higher placed pilot or pair. If both have the same highest score, the second highest scores will be considered.</p>
+<h2 data-number="5.3" id="scoring-1"><span class="header-section-number">5.3</span> Scoring</h2>
+<p>A scoring system that has been approved by CIVL (currently Acropyx) will be used for competition scoring.</p>
+<p>A scoring system shall be tested at a major competition before it is used in a 1st Category event.</p>
+<p>Only maneuvers defined in Chapter 5 are scored. Definitions include description, minimum criteria, technical evaluation criteria, connections, technical scoring coefficient and choreography bonus.</p>
+<p>There is no limitation in number and type of maneuvers unless specified by the Meet Director and/or the Chief Judge. Any limitation must be clearly notified to all pilots prior to the start of the run.</p>
+<p>The judging panel consists of at least 3 CIVL qualified judges. No more than 2 judges can be of the same nationality.</p>
+<h3 data-number="5.3.1" id="solo-1"><span class="header-section-number">5.3.1</span> Solo</h3>
+<p>Each judge awards 3 marks between 1 and 10: technical expression during the program, general choreography, landing.</p>
+<p>Marks are from 1 to 10, with half points.</p>
+<p>The Judges’ mark is composed of the average of the Judges’ scores for technical expression (adjusted, see 6.3.1.1 below) + average score for choreography (including choreography twisted, reversed and flipped bonus marks) + average score for landing.</p>
+<p>The final mark is generated by the scoring software such that the technical expression component represents 40% of the final mark, choreography 40% and landing 20%.</p>
+<p>These values can be modified depending on local factors. Information about the values in force will be provided, at the latest, at the general briefing.</p>
+<h4 data-number="5.3.1.1" id="technical"><span class="header-section-number">5.3.1.1</span> Technical</h4>
+<p>Maneuvers are judged according to:</p>
+<ul>
+<li><p>criteria</p></li>
+<li><p>difficulty coefficients</p></li>
+<li><p>penalties</p></li>
+</ul>
+<p>The final mark for technical expression is the average mark multiplied by a difficulty coefficient, which is calculated as the average of the 3 highest coefficient maneuvers flown during the run.</p>
+<h4 data-number="5.3.1.2" id="choreography-1"><span class="header-section-number">5.3.1.2</span> Choreography</h4>
+<p>Maneuvers are judged according to:</p>
+<ul>
+<li><p>Placement and drift, number of manoeuvres, management of altitude (3/10)</p></li>
+<li><p>Flow, rhythm, connections, originality, diversity, style, overall artistic impact of the run (7/10)</p></li>
+</ul>
+<h4 data-number="5.3.1.3" id="landing"><span class="header-section-number">5.3.1.3</span> Landing</h4>
+<p>Maneuvers are judged according to:</p>
+<ul>
+<li><p>Approach and precision of the raft landing (3/10)</p></li>
+<li><p>Ground Spiral (5/10)</p></li>
+<li><p>Other tricks: hand and foot touch, Jesus walk, spin, raft flip (2/10)</p></li>
+</ul>
+<h3 data-number="5.3.2" id="synchro-1"><span class="header-section-number">5.3.2</span> Synchro</h3>
+<p>Each judge gives 4 marks between 1 and 10: technical expression during the program, general choreography, landing, synchronization of maneuvers.</p>
+<p>Marks are from 1 to 10, with half points. The Judges’ mark is composed of the average of the Judges’ scores for technical expression + average score for choreography + average score for landing + average score for synchronization.</p>
+<p>The final mark is generated by the scoring software such that the technical expression component represents 25% of the final mark, choreography 25%, landing 25% and synchronization 25%.</p>
+<p>These values can be modified depending on local factors. Information about the values in force will be provided, at the latest, at the general briefing.</p>
+<h4 data-number="5.3.2.1" id="technical-1"><span class="header-section-number">5.3.2.1</span> Technical</h4>
+<p>Maneuvers are judged according to:</p>
+<ul>
+<li><p>criteria</p></li>
+<li><p>difficulty coefficients</p></li>
+<li><p>penalties</p></li>
+</ul>
+<p>The final mark for technical expression is the average mark multiplied by a difficulty coefficient, which is calculated as the average of the 3 highest coefficient maneuvers flown during the run.</p>
+<h4 data-number="5.3.2.2" id="choreography-2"><span class="header-section-number">5.3.2.2</span> Choreography</h4>
+<p>Judging criteria:</p>
+<ul>
+<li><p>Placement and drift, number of manoeuvres, management of altitude (3/10)</p></li>
+<li><p>Flow, rhythm, connections, originality, diversity, style, overall artistic impact of the run (7/10)</p></li>
+</ul>
+<h4 data-number="5.3.2.3" id="landing-1"><span class="header-section-number">5.3.2.3</span> Landing</h4>
+<p>Judging criteria:</p>
+<ul>
+<li><p>Approach and precision of the raft landing (3/10)</p></li>
+<li><p>Ground Spiral (3/10), Mirror Ground Spiral (4/10) or Synchro Ground Spiral (5/10)</p></li>
+<li><p>Other tricks: hand and foot touch, Jesus walk, spin (2/10)</p></li>
+</ul>
+<h4 data-number="5.3.2.4" id="synchronisation"><span class="header-section-number">5.3.2.4</span> Synchronisation</h4>
+<p>Judging criteria is based on the average of the synchronization achieved during all single maneuvers (5/10) and an appreciation of the general synchronization (5/10).</p>
+<h2 data-number="5.4" id="technical-2"><span class="header-section-number">5.4</span> Technical</h2>
+<p>Each maneuver has a fixed difficulty coefficient in accordance with the table found in 5.1. (Solo) and 5.2 (Synchro).</p>
+<h3 data-number="5.4.1" id="high-coefficient-manoeuvres"><span class="header-section-number">5.4.1</span> High coefficient manoeuvres</h3>
+<p>During each run, a maximum of 2 maneuvers with coefficient of 1.95 or more can be flown. If more than 2 such maneuvers are flown, the extra maneuvers will not be scored and their coefficients not taken into account for the determination of the average coefficient.</p>
+<h3 data-number="5.4.2" id="points-deductions"><span class="header-section-number">5.4.2</span> Points Deductions</h3>
+<p>The following provide some reference criteria. The judges shall appreciate the context in which the problem occurs, its importance, and the way in which the pilot manages the situation.</p>
+<p>Collapses/Tucks:</p>
+<ul>
+<li><p>0 to 25%: 0 to 2.5 points reduction for the manoeuvre</p></li>
+<li><p>25 to 50%: 2.5 to 5 points reduction for the manoeuvre</p></li>
+<li><p>50 to 100%: 5 to 8 points reduction for the manoeuvre</p></li>
+</ul>
+<p>Unplanned Change of Direction:</p>
+<ul>
+<li><p>&lt;90 o: 0 to 2.5 points reduction for the manoeuvre</p></li>
+<li><p>90 to 180o: 2.5 to 5 points reduction for the manoeuvre</p></li>
+<li><p>&gt;180o: 5 to 8 points reduction for the manoeuvre</p></li>
+</ul>
+<p>Cravat:</p>
+<p>Fast recovery and full control are required.</p>
+<ul>
+<li><p>&lt;10% and recovery in less than 3s: 2.5 points reduction for the manoeuvre</p></li>
+<li><p>&gt;50% and recovery in more than 3s: 2.5 to 8 points reduction for the manoeuvre</p></li>
+</ul>
+<p>Unplanned Twist</p>
+<ul>
+<li><p>&lt;1 turn: 2.5 to 5 points reduction for the manoeuvre</p></li>
+<li><p>1 turn or more: 5 to 8 points reduction for the manoeuvre</p></li>
+</ul>
+<h3 data-number="5.4.3" id="synchro-2"><span class="header-section-number">5.4.3</span> Synchro</h3>
+<p>Each maneuver has a fixed difficulty coefficient in accordance with the listing found in 5.2.</p>
+<p>All maneuvers allowed to be flown twisted, reversed and flipped in Solo can be performed twisted, reversed and flipped in Synchro.</p>
+<p>They will be rewarded by the same choreography bonus points according to the same criteria.</p>
+<p>Point deductions for collapses, tucks, cravats and unplanned twists or changes of direction, as noted for Solo, will also be applied to Synchro scoring.</p>
+<h2 data-number="5.5" id="choreography-3"><span class="header-section-number">5.5</span> Choreography</h2>
+<p>Choreography is scored for the entire run, including the landing.</p>
+<h3 data-number="5.5.1" id="repetition"><span class="header-section-number">5.5.1</span> Repetition</h3>
+<h4 data-number="5.5.1.1" id="repetition-during-the-same-competition."><span class="header-section-number">5.5.1.1</span> Repetition during the same competition.</h4>
+<p>Each maneuver may only be performed once during the same competition without deductions to the choreographic score, unless performed in the opposite direction i.e. left/right. When the same maneuver is flown more than once in the same direction during the same competition, every repetition will be accorded a deduction of the choreography mark. This rule also applies when the same maneuver is flown once untwisted or unreversed and then twisted or reversed. Under certain conditions, the Chief Judge and/or Meet Director may choose to ignore this rule, in which case, information shall be provided at the briefing preceding that run.</p>
+<p>In Synchro, when the two pilots perform the same maneuver simultaneously in opposite directions, (mirror) the maneuver is considered as neutral, without a specific direction of rotation.</p>
+<p>For Rodeo SAT and Rodeo Helicopter, the rotation of the SAT or the helicopter will determine the direction of the maneuver.</p>
+<h4 data-number="5.5.1.2" id="repetition-during-the-same-run."><span class="header-section-number">5.5.1.2</span> Repetition during the same run.</h4>
+<ul>
+<li><p>Only one of the following manoeuvres can be performed during the same run: SuperStall to Infinite Tumbling, Flat Stall to Infinite Tumbling, Tail Slide / Deep Stall to Infinite Tumbling.</p></li>
+<li><p>Only 2 tumbling, infinity and rhythmic related manoeuvres can be performed during the same run.</p></li>
+</ul>
+<p>If this limitation is not respected, only the allowed maneuvers (in the order of execution) will be scored.</p>
+<h4 data-number="5.5.1.3" id="deductions"><span class="header-section-number">5.5.1.3</span> Deductions</h4>
+<p>The penalty for repetition is typically a reduction of 13% of the choreography mark for each repetition, but may be specified differently (especially for events where the completion of more than 4 runs is expected) and will be stated at the general briefing.</p>
+<h4 data-number="5.5.1.4" id="exceptions-to-repetition"><span class="header-section-number">5.5.1.4</span> Exceptions to Repetition</h4>
+<p>The following maneuvers can be performed more than once without penalty within the same competition: Tail Slide, Wingover, Full Stall, Dynamic Full Stall, Pitch Pendulum, Bro Hook. However, each maneuver can be performed only once twisted or flipped within the same run. If the same maneuver is repeated twisted or flipped within the same run, the extra choreography bonus will not be rewarded.</p>
+<h3 data-number="5.5.2" id="twisted-manoeuvres-bonus"><span class="header-section-number">5.5.2</span> Twisted manoeuvres bonus</h3>
+<p>During each run, up to 5 maneuvers can be performed twisted. They will be rewarded with “choreography twisted bonus” points in accordance with the listing found in 5.1. and 5.2.</p>
+<p>Some maneuvers can be rewarded with an additional “choreography twisted exit bonus”.</p>
+<p>If more than 5 maneuvers are flown twisted, the extra maneuvers will not be scored and their coefficients not taken into account for the determination of the average coefficient. All maneuvers allowed to be flown twisted in Solo can be performed twisted in Synchro.</p>
+<h3 data-number="5.5.3" id="reversed-manoeuvres-bonus"><span class="header-section-number">5.5.3</span> Reversed Manoeuvres bonus</h3>
+<p>During each run, up to 3 maneuvers can be performed reversed. They will be rewarded with “choreography reversed bonus” points in accordance with the listing found in 5.1. and 5.2.</p>
+<p>If more than 3 maneuvers are flown reversed, the extra maneuvers will not be scored and their coefficients not taken into account for the determination of the average coefficient. All maneuvers allowed to be flown reversed in Solo can be performed reversed in Synchro.</p>
+<h3 data-number="5.5.4" id="flipped-manoeuvres-bonus"><span class="header-section-number">5.5.4</span> Flipped Manoeuvres bonus</h3>
+<p>During each run, up to 2 maneuvers can be performed flipped. They will be rewarded with “choreography flipped bonus” or “choreography double flipped bonus” points in accordance with the listing found in 5.1. and 5.2. If more than 2 maneuvers are flown flipped, the extra maneuvers will not be scored and their coefficients not taken into account for the determination of the average coefficient. All maneuvers allowed to be flown flipped in Solo can be performed flipped in Synchro.</p>
+<p>If a flipped maneuver is to be performed, it must be announced before the run by personally informing one of the judges, or, at the latest before take-off, by requesting the start marshal or drop master to inform the judges.</p>
+<p>Flip cannot be performed during the last 2 maneuvers of the run.</p>
+<h3 data-number="5.5.5" id="twisted-exit-bonus"><span class="header-section-number">5.5.5</span> Twisted exit bonus</h3>
+<p>The twisted exit bonus is awarded when a twisted maneuver is exit twisted and is followed by another twisted maneuver, without untwisting in between. Exception: the last maneuver of the run. In this case the trick has to be clearly exited twisted and controlled.</p>
+<h3 data-number="5.5.6" id="wing-touch-bonus"><span class="header-section-number">5.5.6</span> Wing touch bonus</h3>
+<p>The wing touch bonus is awarded when, during the execution of some synchro manoeuvres, the two wings smoothly touch each other. They will be rewarded with “choreography wing touch bonus” points in accordance with the listing found in 5.2.</p>
+<h2 data-number="5.6" id="landing-2"><span class="header-section-number">5.6</span> Landing</h2>
+<p>Landing on the raft is an integral part of the competition.</p>
+<p>The raft must have a surface area of 25 square meters minimum on a lake, and larger when on sea water in order to protect, as much as possible, the glider from the salt.</p>
+<h3 data-number="5.6.1" id="landing-on-ground"><span class="header-section-number">5.6.1</span> Landing On Ground</h3>
+<p>The Meet Director, in agreement with the Safety Director and Chief Judge and after consultation with the Safety Committee can decide to eliminate the landing on the raft in the case of rough seas, very cold water (less than 10°C) or unsafe landing conditions.</p>
+<p>In that case, a ground landing can be scored under the following conditions:</p>
+<p>The pilots should be able to safely approach the landing area without over flying the public.</p>
+<p>A target landing gives the “raft points”. The target must be 1m diameter minimum.</p>
+<p>Ground spirals, raft flip, and all the synchro landing tricks are not allowed. All other landing tricks are allowed but must be safely performed, taking into consideration the nature of the landing area, the obstacle and people on ground.</p>
+<h3 data-number="5.6.2" id="no-landing-scoring"><span class="header-section-number">5.6.2</span> No Landing Scoring</h3>
+<p>If the conditions are not safe, the Meet Director, in agreement with the Safety Director and Chief Judge and after consultation with the Safety Committee can decide that landing will not be scored (0 for all pilots/pairs).</p>
+<h2 data-number="5.7" id="synchronisation-1"><span class="header-section-number">5.7</span> Synchronisation</h2>
+<p>Synchronization is scored for the entire run, including the landing.</p>
+<h2 data-number="5.8" id="manoeuvre-and-score-validation"><span class="header-section-number">5.8</span> Manoeuvre and Score Validation</h2>
+<p>Just after completing the run, pilots/pairs are requested to validate their maneuvers by checking in at the judges’ tent.</p>
+<p>When a run is completed the list of maneuvers and the provisional results are published on the official information board. The pilots/pairs have 1 hour time to check the scores and report to the judges to point out possible errors.</p>
+<h2 data-number="5.9" id="obvious-error"><span class="header-section-number">5.9</span> Obvious Error</h2>
+<p>The Meet Director may hold a conference with the judges to adjust a score in case of an obvious error.</p>
+<h1 data-number="6" id="penalties-and-warnings"><span class="header-section-number">6</span> PENALTIES AND WARNINGS</h1>
+<h2 data-number="6.1" id="penalties"><span class="header-section-number">6.1</span> Penalties</h2>
+<h3 data-number="6.1.1" id="dangerous-flying"><span class="header-section-number">6.1.1</span> Dangerous Flying</h3>
+<p>When the judges determine that a pilot has put himself into a dangerous situation through recklessness, poor preparation or by attempting a maneuver beyond his current skill level/proficiency.</p>
+<p>0 points for the run.</p>
+<h3 data-number="6.1.2" id="opening-of-reserve"><span class="header-section-number">6.1.2</span> Opening of Reserve</h3>
+<p>Opening of the rescue parachute:</p>
+<p>Technical score only for the maneuvers already completed. 0 for choreography and landing. A warning will be issued in the case of 7.1.1</p>
+<h3 data-number="6.1.3" id="not-opening-of-reserve"><span class="header-section-number">6.1.3</span> Not Opening of Reserve</h3>
+<p>Not opening the reserve or delayed deployment when needed:</p>
+<p>0 points for the run + Warning.</p>
+<h2 data-number="6.2" id="warnings"><span class="header-section-number">6.2</span> Warnings</h2>
+<p>For safety reasons but also to ensure sportsmanship and fair play, warnings can be imposed on pilots/pairs. Warnings carry penalties.</p>
+<p>Each warning is displayed on the results sheet.</p>
+<p>The penalty points are shown in the results and are deducted from the total results.</p>
+<p>Officials entitled to impose warnings:</p>
+<ul>
+<li><p>The judges for safety and competition related aspects: each judge notes the warning on his scoring sheet. The warning is valid if at least 2 judges (or 3 when 5 judges) give a warning.</p></li>
+<li><p>The Meet Director and Safety Director for safety related aspects.</p></li>
+<li><p>The Meet Director for sportsmanship related aspects.</p></li>
+</ul>
+<p>Warnings can be imposed for incidents occurring at any time during the event: flight, registration, meals, transport to the take-off, at the take-off, during the briefings etc.</p>
+<h3 data-number="6.2.1" id="offences-liable-to-result-in-a-warning"><span class="header-section-number">6.2.1</span> Offences liable to result in a warning</h3>
+<h4 data-number="6.2.1.1" id="general-safety"><span class="header-section-number">6.2.1.1</span> General Safety</h4>
+<ul>
+<li><p>Disregard of the flight box.</p></li>
+<li><p>Disregard of the signal closing the flight box.</p></li>
+<li><p>Performing one of the manoeuvres not allowed to be flown as one the last 2 manoeuvres.</p></li>
+<li><p>Over flying the public.</p></li>
+<li><p>Unauthorised take off.</p></li>
+</ul>
+<h4 data-number="6.2.1.2" id="taking-risks"><span class="header-section-number">6.2.1.2</span> Taking Risks</h4>
+<ul>
+<li><p>Dangerous flying.</p></li>
+<li><p>Endangering others (raft crew).</p></li>
+<li><p>Unsafe landing.</p></li>
+</ul>
+<h4 data-number="6.2.1.3" id="respect-sportsmanship"><span class="header-section-number">6.2.1.3</span> Respect – Sportsmanship</h4>
+<ul>
+<li><p>Late arrival/non-attendance at briefings.</p></li>
+<li><p>Delay at take-off.</p></li>
+<li><p>Unsporting behaviour.</p></li>
+<li><p>Disrespectful or aggressive behaviour towards the organisation, officials or other competitors.</p></li>
+<li><p>No ‘ear’ before programme start.</p></li>
+<li><p>Any other behaviour deemed by the judges and/or the meet director as serious misconduct.</p></li>
+</ul>
+<h3 data-number="6.2.2" id="warning-penalties"><span class="header-section-number">6.2.2</span> Warning Penalties</h3>
+<p>Warnings carry penalties.</p>
+<ul>
+<li><p>1st warning: 0.5 point.</p></li>
+<li><p>2nd warnings: 1 point.</p></li>
+<li><p>3rd warnings: Disqualification.</p></li>
+</ul>
+<p>Penalties will be applied whether the same offence is repeated or whether warnings have been applied for different offences.</p>
+<h1 data-number="7" id="penalties-and-warnings-1"><span class="header-section-number">7</span> PENALTIES AND WARNINGS</h1>
+<h2 data-number="7.1" id="penalties-1"><span class="header-section-number">7.1</span> Penalties</h2>
+<h3 data-number="7.1.1" id="dangerous-flying-1"><span class="header-section-number">7.1.1</span> Dangerous Flying</h3>
+<p>When the judges determine that a pilot has put himself into a dangerous situation through recklessness, poor preparation or by attempting a maneuver beyond his current skill level/proficiency.</p>
+<p>0 points for the run.</p>
+<h3 data-number="7.1.2" id="opening-of-reserve-1"><span class="header-section-number">7.1.2</span> Opening of Reserve</h3>
+<p>Opening of the rescue parachute:</p>
+<p>Technical score only for the maneuvers already completed. 0 for choreography and landing. A warning will be issued in the case of 7.1.1</p>
+<h3 data-number="7.1.3" id="not-opening-of-reserve-1"><span class="header-section-number">7.1.3</span> Not Opening of Reserve</h3>
+<p>Not opening the reserve or delayed deployment when needed:</p>
+<p>0 points for the run + Warning.</p>
+<h2 data-number="7.2" id="warnings-1"><span class="header-section-number">7.2</span> Warnings</h2>
+<p>For safety reasons but also to ensure sportsmanship and fair play, warnings can be imposed on pilots/pairs. Warnings carry penalties.</p>
+<p>Each warning is displayed on the results sheet.</p>
+<p>The penalty points are shown in the results and are deducted from the total results.</p>
+<p>Officials entitled to impose warnings:</p>
+<ul>
+<li><p>The judges for safety and competition related aspects: each judge notes the warning on his scoring sheet. The warning is valid if at least 2 judges (or 3 when 5 judges) give a warning.</p></li>
+<li><p>The Meet Director and Safety Director for safety related aspects.</p></li>
+<li><p>The Meet Director for sportsmanship related aspects.</p></li>
+</ul>
+<p>Warnings can be imposed for incidents occurring at any time during the event: flight, registration, meals, transport to the take-off, at the take-off, during the briefings etc.</p>
+<h3 data-number="7.2.1" id="offences-liable-to-result-in-a-warning-1"><span class="header-section-number">7.2.1</span> Offences liable to result in a warning</h3>
+<h4 data-number="7.2.1.1" id="general-safety-1"><span class="header-section-number">7.2.1.1</span> General Safety</h4>
+<ul>
+<li><p>Disregard of the flight box.</p></li>
+<li><p>Disregard of the signal closing the flight box.</p></li>
+<li><p>Performing one of the manoeuvres not allowed to be flown as one the last 2 manoeuvres.</p></li>
+<li><p>Over flying the public.</p></li>
+<li><p>Unauthorised take off.</p></li>
+</ul>
+<h4 data-number="7.2.1.2" id="taking-risks-1"><span class="header-section-number">7.2.1.2</span> Taking Risks</h4>
+<ul>
+<li><p>Dangerous flying.</p></li>
+<li><p>Endangering others (raft crew).</p></li>
+<li><p>Unsafe landing.</p></li>
+</ul>
+<h4 data-number="7.2.1.3" id="respect-sportsmanship-1"><span class="header-section-number">7.2.1.3</span> Respect – Sportsmanship</h4>
+<ul>
+<li><p>Late arrival/non-attendance at briefings.</p></li>
+<li><p>Delay at take-off.</p></li>
+<li><p>Unsporting behaviour.</p></li>
+<li><p>Disrespectful or aggressive behaviour towards the organisation, officials or other competitors.</p></li>
+<li><p>No ‘ear’ before programme start.</p></li>
+<li><p>Any other behaviour deemed by the judges and/or the meet director as serious misconduct.</p></li>
+</ul>
+<h3 data-number="7.2.2" id="warning-penalties-1"><span class="header-section-number">7.2.2</span> Warning Penalties</h3>
+<p>Warnings carry penalties.</p>
+<ul>
+<li><p>1st warning: 0.5 point.</p></li>
+<li><p>2nd warnings: 1 point.</p></li>
+<li><p>3rd warnings: Disqualification.</p></li>
+</ul>
+<p>Penalties will be applied whether the same offence is repeated or whether warnings have been applied for different offences.</p>
+<h1 data-number="8" id="safety-equipment"><span class="header-section-number">8</span> SAFETY &amp; EQUIPMENT</h1>
+<h2 data-number="8.1" id="personal-responsibility"><span class="header-section-number">8.1</span> Personal Responsibility</h2>
+<p>Each competitor has a personal responsibility for his own safety and those of others. He should only perform maneuvers that he has practiced and that he can control fully.</p>
+<h2 data-number="8.2" id="equipment"><span class="header-section-number">8.2</span> Equipment</h2>
+<p>All equipment, including glider, harness and rescue parachutes must be in perfect condition. Pilots will not be able to compete with damaged or broken lines, damaged fabric, coverings, stitching or reinforcements.</p>
+<p>In case of damage to the competing glider that had been presented to the Competition Organizer during the period of registration, the pilot shall inform the Chief Judge and get his approval before using a replacement glider. If the damage occurs during a run and forces to stop it, a re-run can be granted, but only if this does not cause the competition and/or the prize giving ceremony to be delayed.</p>
+<h3 data-number="8.2.1" id="glider"><span class="header-section-number">8.2.1</span> Glider</h3>
+<p>All competing gliders must be certified according to EN 926-1 or LTF 91-09, for shock and load tests.</p>
+<p>All lines must be fixed on the maillon with rubbers/plug to prevent moving. Knots not allowed, loops must be clean.</p>
+<h3 data-number="8.2.2" id="harness"><span class="header-section-number">8.2.2</span> Harness</h3>
+<p>The harness must be certified according to EN 1651 or LTF.</p>
+<p>The harness must be connected to the glider with carabiners or quick out carabiners with 16kN minimum breaking load.</p>
+<h3 data-number="8.2.3" id="reserve-parachutes"><span class="header-section-number">8.2.3</span> Reserve Parachutes</h3>
+<p>Two rescue parachutes are compulsory: 2 classic or 1 classic and 1 Rogallo or BASE system.</p>
+<p>For D-bag drop competitions, at least one rescue parachute must be a Rogallo or BASE system. An organizer may request an exemption from this requirement when bidding.</p>
+<p>They must be certified according to EN 12491 (except for BASE system).</p>
+<p>Both reserve parachutes must be dry and recently repacked. After a water landing, they must be dried or replaced by dry material.</p>
+<p>Rescue parachutes must be connected to the harness with maillons rapides (both end fixed with rubbers to prevent moving) or soft links with 16kN minimum breaking load. Connection with a loop can be exceptionally accepted only when securely fixed with tape.</p>
+<h3 data-number="8.2.4" id="helmets"><span class="header-section-number">8.2.4</span> Helmets</h3>
+<p>All pilots must wear a helmet certified according to either EN 966 (HPG), ASTM 2040 (Snow sports) or SNELL rs98 (Snow sports).</p>
+<h3 data-number="8.2.5" id="ballast"><span class="header-section-number">8.2.5</span> Ballast</h3>
+<p>No ballast is allowed.</p>
+<h3 data-number="8.2.6" id="emergency-lines-cut-away"><span class="header-section-number">8.2.6</span> Emergency lines cut away</h3>
+<p>Emergency lines cut away compulsory for D-Bag drop competitions.</p>
+<h2 data-number="8.3" id="equipment-checks"><span class="header-section-number">8.3</span> Equipment Checks</h2>
+<p>The Safety Director and/or a Senior Judge will perform an equipment check during the pilot registration. Further checks may be made during the event. Any equipment change during the event has to be notified to the Meet Director. In case of non-compliance with the above regulations, the Meet Director may suspend or exclude the pilot from the competition.</p>
+</body>
+</html>

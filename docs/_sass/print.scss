@@ -1,0 +1,10 @@
+@media print {
+    header, footer, .noprint {
+        display: none;
+    }
+
+    p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}

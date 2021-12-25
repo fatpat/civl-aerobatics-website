@@ -1,0 +1,47 @@
+body {
+    counter-reset: h1counter;
+}
+.head_numbering h1 {
+    counter-reset: h2counter;
+}
+.head_numbering h2 {
+    counter-reset: h3counter;
+}
+.head_numbering h3 {
+    counter-reset: h4counter;
+}
+.head_numbering h4 {
+    counter-reset: h5counter;
+}
+.head_numbering h5 {
+    counter-reset: h6counter;
+}
+.head_numbering h1:before {
+    content: counter(h1counter) ".\0000a0\0000a0";
+    counter-increment: h1counter;
+    counter-reset: h2counter;
+}
+.head_numbering h2:before {
+    content: counter(h1counter) "." counter(h2counter) ".\0000a0\0000a0";
+    counter-increment: h2counter;
+    counter-reset: h3counter;
+}
+.head_numbering h3:before {
+    content: counter(h1counter) "." counter(h2counter) "." counter(h3counter) ".\0000a0\0000a0";
+    counter-increment: h3counter;
+    counter-reset: h4counter;
+}
+.head_numbering h4:before {
+    content: counter(h1counter) "." counter(h2counter) "." counter(h3counter) "." counter(h4counter) ".\0000a0\0000a0";
+    counter-increment: h4counter;
+    counter-reset: h5counter;
+}
+.head_numbering h5:before {
+    content: counter(h1counter) "." counter(h2counter) "." counter(h3counter) "." counter(h4counter) "." counter(h5counter) ".\0000a0\0000a0";
+    counter-increment: h5counter;
+    counter-reset: h6counter;
+}
+.head_numbering h6:before {
+    content: counter(h1counter) "." counter(h2counter) "." counter(h3counter) "." counter(h4counter) "." counter(h5counter) "." counter(h5counter) ".\0000a0\0000a0";
+    counter-increment: h6counter;
+}

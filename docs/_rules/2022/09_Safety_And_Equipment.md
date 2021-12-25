@@ -1,6 +1,7 @@
 ---
 title: Safety & Equipment
 section: 9
+year: 2022
 ---
 
 ## Personal Responsibility

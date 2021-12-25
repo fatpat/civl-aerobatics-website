@@ -1,9 +1,10 @@
 ---
 title: Maneuver definitions and evaluation criteria
 section: 5
+year: 2022
 ---
 
-{% assign tricks = site.tricks | sort: "coef" -%}
+{% assign tricks = site.tricks | where_exp: "item", "item.id contains page.year" | sort: "coef" -%}
 ## Solo and Synchro
 {% for trick in tricks -%}
 {%   if trick.synchro_only != true -%}

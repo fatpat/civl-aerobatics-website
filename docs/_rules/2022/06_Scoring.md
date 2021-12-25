@@ -1,6 +1,7 @@
 ---
 title: Scoring
 section: 6
+year: 2022
 ---
 
 ## Competition Validity

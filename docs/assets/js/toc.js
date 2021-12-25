@@ -2,6 +2,7 @@
 ---
 
 function toc(input, output, limit, toc_limit) {
+    var start = Date.now();
     if (!limit) limit = 6;
     if (!toc_limit) toc_limit = 2;
     if (toc_limit > limit) toc_limit = limit;
@@ -33,13 +34,12 @@ function toc(input, output, limit, toc_limit) {
         $(this).html('<span id="' + level + '">' + level + '</span>' + '&nbsp;' + $(this).html() + '&nbsp;<span><a href="#top"><ion-icon name="arrow-up-circle-outline" size="small" class="noprint"></ion-icon></a></span>');
 
         if (h <= toc_limit) {
-            console.log("h=" + h + ", previous=" + previous);
             if (h > previous) {
                 t = $('<ul>').appendTo(t);
             } else if (h < previous ) {
                 t = t.parent();
             }
-            t.append('<li><a href="' + $(this).prop('id') + '">' + $(this).attr('data-level') + ' ' + $(this).attr('data-name') + '</a></li>');
+            t.append('<li><a href="#' + $(this).prop('id') + '">' + $(this).attr('data-level') + ' ' + $(this).attr('data-name') + '</a></li>');
 
             previous = h;
         }
@@ -57,8 +57,7 @@ function toc(input, output, limit, toc_limit) {
         $(this).attr('href', '#' + level);
         $(this).text(level + ' (' + $(this).text() + ')');
     });
-}
 
-$(document).ready(function(){
-    toc("#rules", "#toc", 6, 2);
-});
+    duration = Date.now() - start;
+    console.log('Generating TOC took ' + duration + 'ms');
+}

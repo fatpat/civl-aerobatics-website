@@ -1,6 +1,7 @@
 ---
 title: Briefings
 section: 3
+year: 2022
 ---
 
 ## General Briefing

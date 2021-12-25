@@ -1,0 +1,20 @@
+{% assign years = site.rules | map: "year" | uniq | sort %}
+{% for y in years %}
+[<a href="rules{{ y }}">{{ y }}</a>]
+{% endfor %}
+<h1>{{ year }} {{ page.title }}</h1>
+<h1>Table of Content</h1>
+<div id="toc"></div>
+<div class="head_numbering" id="rules">
+{%   assign rules = site.rules | where: "year", page.year %}
+{%   for rule in rules %}
+{{     rule.title | prepend: "# " | markdownify }}
+{{     rule.content | markdownify}}
+{%   endfor %}
+</div>
+
+<script>
+$(document).ready(function(){
+    toc('#rules', '#toc', 6, 2);
+});
+</script>

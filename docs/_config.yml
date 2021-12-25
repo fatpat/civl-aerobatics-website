@@ -33,6 +33,7 @@ domain: "fatpat.github.io"
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -58,8 +59,10 @@ collections:
   rules:
     sort_by: section
   tricks:
-    sort_by: coef
 
 minima:
   social_links:
     instagram: acroworldtour
+
+header_pages:
+  - rules.html

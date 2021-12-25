@@ -1,6 +1,7 @@
 ---
 title: Entry and registration
 section: 2
+year: 2022
 ---
 
 ## Entry

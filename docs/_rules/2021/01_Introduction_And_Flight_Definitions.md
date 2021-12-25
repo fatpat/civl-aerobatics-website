@@ -1,6 +1,7 @@
 ---
 title: Introduction and flight definitions
 section: 1
+year: 2021
 ---
 
 Section 7B of the FAI Sporting Code is the subset of Section 7 (or

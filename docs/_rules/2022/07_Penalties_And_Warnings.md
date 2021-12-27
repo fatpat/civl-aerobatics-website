@@ -39,6 +39,8 @@ Officials entitled to impose warnings:
 
 Warnings can be imposed for incidents occurring at any time during the event: flight, registration, meals, transport to the take-off, at the take-off, during the briefings etc.
 
+In anycase the chief judge can give a warning to a pilot without any reason nor justification.
+
 ### Offences liable to result in a warning
 
 #### General Safety
